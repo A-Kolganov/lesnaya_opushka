@@ -1,0 +1,44 @@
+@media (min-width: 1200px) {
+    body{
+        background-color: $backgroundColor;
+    }
+    .header__box {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .header__box__logo{
+        margin-left: 84px;
+        width: 215px;
+        height: 90px;
+    }
+    .header__box__contacts {
+        margin-right: 83px;
+        font-size: 15.5px;
+        width: 300px;
+    }
+    .header__box__nav {
+        max-width: 100%;
+        text-decoration: none;
+       
+
+    }
+    .header__box__nav__ul__item__link {
+        border: none;
+        font-size: 15px;
+        line-height: 20px;
+        font-size: 18px;
+    }
+    
+    .header__box__nav__ul__item {
+        width: 80px;
+        padding: 0;
+        text-align: center;
+    }
+    .header__box__nav__ul__item:nth-child(5) {
+        width: 110px;
+    }
+    .header__box__nav__ul{
+        justify-content: space-evenly;
+        padding-top: 36px;
+    }
+}

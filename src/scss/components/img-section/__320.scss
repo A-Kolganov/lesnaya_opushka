@@ -1,0 +1,17 @@
+.img-section__top-border {
+  background: $borderColor;
+  height: 3px;
+  width: 100%;
+}
+.img-section {
+  width: 100%;
+  min-width: 320px;
+}
+.img-section__img {
+  width: 100%;
+  height: calc(100vw/2);
+  background-image: url('../../src/img/main-img-one.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -8,10 +8,12 @@
     }
     .header__box__nav, .header__box__nav__ul--open {
         min-width: 370px;
-        max-width: 430px;
+        width: 100%;
+        max-width: 370px;
         height: auto;
         background: none;
         position: static ;
+        padding: 0;
         transform: translate(0);
     }
     .header__box__nav__btn {

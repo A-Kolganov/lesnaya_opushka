@@ -1,0 +1,31 @@
+@media (min-width: 680px) {
+    .header__topborder {
+        height: 27px;
+    }
+    .header__box {
+        height: 100px;
+        padding: 5px 10px 0;
+    }
+    .header__box__nav, .header__box__nav__ul--open {
+        min-width: 370px;
+        max-width: 430px;
+        height: auto;
+        background: none;
+        position: static ;
+        transform: translate(0);
+    }
+    .header__box__nav__btn {
+        display: none;
+    }
+    .header__box__nav__ul ,  .header__box__nav__ul--open{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+        min-width: 170px;
+        
+    }
+    .header__box__nav__ul__item{
+        padding: 0 10px;
+    }
+}

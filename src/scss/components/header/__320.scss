@@ -1,0 +1,111 @@
+.header__topborder {
+  background-color: $mainWebColor;
+  width: 100%;
+  min-width: 320px;
+  height: 15px;
+}
+.header__box {
+  background-color: $backgroundColor;
+  width: 100%;
+  min-width: 320px;
+  height: 130px;
+  padding: 30px 10px 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.header__box__logo {
+  width: 120px;
+  height: 90px;
+  background-image: url("../../src/img/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header__box__contacts {
+  font-family: $headerFont;
+  color: $firtFontColor;
+  text-align: right;
+  padding-top: 5px;
+  font-size: 15px;
+}
+.header__box__nav {
+  position: absolute;
+  width: 80px;
+  height: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: $mainWebColor;
+  top: 0;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  z-index: 10;
+}
+.header__box__nav__btn {
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.header__box__nav__btn__burger{
+    width: 40px;
+    height: 3px;
+    background-color: $firtFontColor;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    z-index: 10;
+}
+.header__box__nav__btn__burger::after{
+    display: block;
+    content: ' ';
+    position: relative;
+    top:7px;
+    width: 40px;
+    height: 3px;
+    background-color: $firtFontColor;
+}
+.header__box__nav__btn__burger::before{
+    display: block;
+    content: ' ';
+    position: relative;
+    top:-10px;
+    width: 40px;
+    height: 3px;
+    background-color: $firtFontColor;
+}
+.header__box__nav__ul--open {
+    display: block;
+    z-index: 5;
+    width: 250px;
+    height: auto;
+    left: -100%;
+    top: 0px;
+    background-color: $mainWebColor;
+    position: absolute;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius: 15px;
+    text-align: left;
+    transition: all 0.5s linear;
+    padding: 65px 30px 30px;
+}
+.header__box__nav__ul {
+    display: none;
+    
+}
+.header__box__contacts__item{
+line-height: 20px;
+}
+.header__box__nav__ul__item__link {
+  font-family: $headerFont;
+  color: $firtFontColor;
+  text-decoration: none;
+  line-height: 35px;
+  border-bottom: 2px solid $firtFontColor;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+

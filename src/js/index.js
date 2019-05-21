@@ -16,6 +16,7 @@ const bannerBtnThree = document.querySelector('.js-img-btn-three');
 import {burgerMenuOpen} from '../js/view/burger-menu';
 
 import {chooseImg} from '../js/view/img-banner';
+import {timer} from '../js/components/img-auto-change';
 // EVENT LISTENERS
 
 burgerBtn.addEventListener('click', burgerMenuOpen);

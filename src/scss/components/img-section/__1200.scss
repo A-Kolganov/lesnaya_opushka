@@ -1,0 +1,26 @@
+@media (min-width: 1024px){
+    .img-section__img {
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+        min-width: 1024px;
+        max-height: none;
+    }
+    .img-section__btn {
+            margin: 1px auto;
+            position: absolute;
+            bottom: -6px;
+    
+            &--first {
+                left: 47.1%;
+            }
+    
+            &--second {
+                left: 49.4%;
+            }
+    
+            &--third {
+                left: 51.5%;
+            }
+    }
+}

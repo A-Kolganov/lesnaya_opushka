@@ -6,10 +6,12 @@
 .img-section {
   width: 100%;
   min-width: 320px;
+  position: relative;
 }
 .img-section__img {
   width: 100%;
   height: calc(100vw / 2);
+  max-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

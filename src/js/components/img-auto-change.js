@@ -1,5 +1,4 @@
-function chooseImg (e) {
-    e.preventDefault();
+const timerId = setInterval(function() {
     const placeImg = document.querySelector('.img-section__img');
     const bannerBtnOne = document.querySelector('.js-img-btn-one');
     const bannerBtnTwo = document.querySelector('.js-img-btn-two');
@@ -13,29 +12,32 @@ function chooseImg (e) {
         bannerBtnOne.classList.remove('btn-turnOn');
         bannerBtnTwo.classList.remove('btn-turnOn');
         bannerBtnThree.classList.remove('btn-turnOn');
+       
         
-    }
-    e.target.classList.add('btn-turnOn');
-    
-    if(e.target.classList.contains('img-section__btn--first') ){
-        placeImg.classList.remove('js-img-two');
-        placeImg.classList.remove('js-img-three');
-        placeImg.classList.add('js-img-one');
-     
-    }
-    if(e.target.classList.contains('img-section__btn--second') ){
+    if(placeImg.classList.contains('js-img-one') ){
         placeImg.classList.remove('js-img-one');
         placeImg.classList.remove('js-img-three');
         placeImg.classList.add('js-img-two');
+        bannerBtnTwo.classList.add('btn-turnOn');
        
+        return
     }
-    if(e.target.classList.contains('img-section__btn--third') ){
+    if(placeImg.classList.contains('js-img-two') ){
         placeImg.classList.remove('js-img-one');
         placeImg.classList.remove('js-img-two');
         placeImg.classList.add('js-img-three');
+        bannerBtnThree.classList.add('btn-turnOn');
        
+       return
     }
-    
-}
+    if(placeImg.classList.contains('js-img-three') ){
+        placeImg.classList.remove('js-img-three');
+        placeImg.classList.remove('js-img-two');
+        placeImg.classList.add('js-img-one');
+       bannerBtnOne.classList.add('btn-turnOn');
+       
+       return
+    }}
+  }, 5000);
 
-export {chooseImg};
+  export {timerId};

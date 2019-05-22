@@ -98,13 +98,16 @@
 }
 .header__box__contacts__item{
 line-height: 20px;
+
+}
+.header__box__nav__ul__item {
+  border-bottom: 2px solid #627754;
 }
 .header__box__nav__ul__item__link {
   font-family: $headerFont;
-  color: $firtFontColor;
+  color: $mostLightColor;
   text-decoration: none;
   line-height: 35px;
-  border-bottom: 2px solid $firtFontColor;
   padding-bottom: 5px;
   font-size: 16px;
 }

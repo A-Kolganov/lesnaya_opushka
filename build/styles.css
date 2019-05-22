@@ -2,6 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+body {
+  background-color: #f2f0f0; }
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -178,12 +181,14 @@ table {
 .header__box__contacts__item {
   line-height: 20px; }
 
+.header__box__nav__ul__item {
+  border-bottom: 2px solid #627754; }
+
 .header__box__nav__ul__item__link {
   font-family: "ArialRegular", "Arial", sans-serif;
-  color: #434343;
+  color: #ffffff;
   text-decoration: none;
   line-height: 35px;
-  border-bottom: 2px solid #434343;
   padding-bottom: 5px;
   font-size: 16px; }
 
@@ -215,11 +220,11 @@ table {
     flex-direction: row;
     min-width: 170px; }
   .header__box__nav__ul__item {
-    padding: 0 10px; } }
+    padding: 0 10px; }
+  .header__box__nav__ul__item__link {
+    color: #434343; } }
 
 @media (min-width: 1200px) {
-  body {
-    background-color: #f2f0f0; }
   .header__box {
     max-width: 1200px;
     margin: 0 auto; }
@@ -239,10 +244,14 @@ table {
     font-size: 15px;
     line-height: 20px;
     font-size: 18px; }
+  .header__box__nav__ul__item:nth-child(3), .header__box__nav__ul__item:nth-child(5) {
+    position: relative;
+    bottom: 15px; }
   .header__box__nav__ul__item {
     width: 80px;
     padding: 0;
-    text-align: center; }
+    text-align: center;
+    border: none; }
   .header__box__nav__ul__item:nth-child(5) {
     width: 110px; }
   .header__box__nav__ul {
@@ -281,7 +290,7 @@ table {
   justify-content: center;
   flex-wrap: nowrap;
   flex-direction: row;
-  padding-top: 5px;
+  padding: 5px;
   background-color: #f2f0f0; }
 
 .btn-turnOn {
@@ -305,10 +314,12 @@ table {
     background-size: cover;
     min-width: 1024px;
     max-height: none; }
+  .btn-container {
+    padding: 5px 0 25px; }
   .img-section__btn {
     margin: 1px auto;
     position: absolute;
-    bottom: -6px; }
+    bottom: 19px; }
     .img-section__btn--first {
       left: 47.1%; }
     .img-section__btn--second {
@@ -333,6 +344,10 @@ table {
 
 .content {
   min-width: 320px;
+  height: auto; }
+
+.conteiner-nav {
+  width: 100%;
   height: auto;
   background-color: #62a754; }
 
@@ -346,15 +361,34 @@ table {
   margin: 0 auto; }
 
 .content__nav__btn-link {
-  border: none;
   background-color: #f2f0f0;
   width: 140px;
-  height: 55px;
+  height: 30px;
   text-align: center;
-  padding: 5px;
   border-radius: 10px;
   margin: 5px;
   color: #434343;
   font-family: "ArialRegular", "Arial", sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 10px; }
+
+@media (min-width: 1024px) {
+  .content__nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 63px; }
+  .content__nav__btn-link {
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: normal;
+    padding-top: 17px;
+    position: relative; }
+  .content__nav__btn-link:nth-child(1), .content__nav__btn-link:nth-child(5), .content__nav__btn-link:nth-child(6) {
+    bottom: 12px; } }
 

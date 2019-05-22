@@ -1,7 +1,4 @@
 @media (min-width: 1200px) {
-    body{
-        background-color: $backgroundColor;
-    }
     .header__box {
         max-width: 1200px;
         margin: 0 auto;
@@ -28,11 +25,15 @@
         line-height: 20px;
         font-size: 18px;
     }
-    
+    .header__box__nav__ul__item:nth-child(3),.header__box__nav__ul__item:nth-child(5) {
+        position: relative;
+        bottom: 15px;
+    }
     .header__box__nav__ul__item {
         width: 80px;
         padding: 0;
         text-align: center;
+        border: none;
     }
     .header__box__nav__ul__item:nth-child(5) {
         width: 110px;

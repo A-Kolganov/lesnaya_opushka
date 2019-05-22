@@ -1,0 +1,34 @@
+.shop {
+    background-color: $backgroundColor;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.content {
+    min-width: 320px;
+    height: auto;
+    background-color: $mainWebColor;
+}
+.content__nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.content__nav__btn-link {
+    border: none ;
+    background-color: $backgroundColor;
+    width: 140px;
+    height: 55px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    color: $firtFontColor;
+    font-family: $headerFont;
+    font-weight: 700;
+   
+}

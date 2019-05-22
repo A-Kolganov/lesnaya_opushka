@@ -281,7 +281,8 @@ table {
   justify-content: center;
   flex-wrap: nowrap;
   flex-direction: row;
-  padding-top: 5px; }
+  padding-top: 5px;
+  background-color: #f2f0f0; }
 
 .btn-turnOn {
   background-color: #ffffff; }
@@ -323,4 +324,37 @@ table {
 
 .js-img-three {
   background-image: url(a4b88827e26bf205c8379a35ff15cb9c.jpg); }
+
+.shop {
+  background-color: #f2f0f0;
+  width: 100%;
+  height: auto;
+  margin: 0 auto; }
+
+.content {
+  min-width: 320px;
+  height: auto;
+  background-color: #62a754; }
+
+.content__nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  max-width: 500px;
+  margin: 0 auto; }
+
+.content__nav__btn-link {
+  border: none;
+  background-color: #f2f0f0;
+  width: 140px;
+  height: 55px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+  color: #434343;
+  font-family: "ArialRegular", "Arial", sans-serif;
+  font-weight: 700; }
 

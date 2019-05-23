@@ -114,3 +114,39 @@ line-height: 20px;
 .header__box__nav__ul__item__link:hover {
   color: $mainWebColor;
 }
+.header__box__contacts__item:nth-child(1)::before {
+  content: " ";
+  display: inline-block;
+  width: 18px;
+  top: 4px;
+  height: 15px;
+  position: relative;
+  left: -20px;
+  background-image: url('../img/Слой\ 4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  }  
+  .header__box__contacts__item:nth-child(2)::before {
+    content: " ";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: -20px;
+    background-image: url('../img/Слой\ 5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 4px;
+    }  
+    .header__box__contacts__item:nth-child(3)::before {
+      content: " ";
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      top: 4px;
+      position: relative;
+      left: -20px;
+      background-image: url('../img/Слой\ 6.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      }  

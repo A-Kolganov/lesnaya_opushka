@@ -1,6 +1,16 @@
-<div>
-    <h1>{{category}}</h1>
-    <img src="{{img}}" alt="">
-    <p>name: {{name}}</p>
-    <article>{{shortDescr}}</article>
+<div class="card">
+    <div class="card__heading--css"></div>
+    <div class="card__heading">
+        
+        <h2 class="card__heading__text">{{name}}</h2>
+    </div>
+    
+    <div class="card__img-container">
+        <img class="card__img-container__img" src="{{img}}" alt="Lesnaya opushka">
+    </div>
+    <div class="card__info">
+        <article class="card__info__text">
+            <span class="card__info__text__span">{{textSpan}}</span>{{shortDescr}}
+        </article>
+    </div>
 </div>

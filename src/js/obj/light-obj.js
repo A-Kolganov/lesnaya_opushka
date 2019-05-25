@@ -1,0 +1,68 @@
+const lightObj = [{
+    category: 'ОСВЕЩЕНИЕ',
+    name: 'лампы 1',
+    img: '../src/img/light/Podsvetka-dlya-rassady-7-300x300.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 1000,
+},{
+    category: 'ОСВЕЩЕНИЕ',
+    name: 'лампа для рассады',
+    img: '../src/img/light/natrievye-lampy-dlya-osveshcheniya-rassady.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 22000,
+},{
+    category: 'ОСВЕЩЕНИЕ',
+    name: 'просто красиво',
+    img: '../src/img/light/60-126-200.jpg_640x640-300x300.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 50000,
+},
+{
+    category: 'ОСВЕЩЕНИЕ',
+    name: 'лампы 1',
+    img: '../src/img/light/Podsvetka-dlya-rassady-7-300x300.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 1000,
+},{
+    category: 'ОСВЕЩЕНИЕ',
+    name: 'лампа для рассады',
+    img: '../src/img/light/natrievye-lampy-dlya-osveshcheniya-rassady.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 22000,
+},{
+    category: 'ОСВЕЩЕНИЕ',
+    name: 'просто красиво',
+    img: '../src/img/light/60-126-200.jpg_640x640-300x300.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 50000,
+},
+{
+    category: 'ОСВЕЩЕНИЕ',
+    name: 'лампы 1',
+    img: '../src/img/light/Podsvetka-dlya-rassady-7-300x300.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 1000,
+},{
+    category: 'ОСВЕЩЕНИЕ',
+    name: 'лампа для рассады',
+    img: '../src/img/light/natrievye-lampy-dlya-osveshcheniya-rassady.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 22000,
+},{
+    category: 'ОСВЕЩЕНИЕ',
+    name: 'просто красиво',
+    img: '../src/img/light/60-126-200.jpg_640x640-300x300.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 50000,
+},]
+
+export default lightObj;

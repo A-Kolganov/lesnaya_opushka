@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+    .card {
+        width: 300px;
+        height: auto;
+        margin: 25px auto;
+        position: relative;
+        
+      }
+}
+@media (min-width: 590px) {
+    .content__inner__upload  {
+        min-width: 480px;
+        max-width: none;
+    }
+}

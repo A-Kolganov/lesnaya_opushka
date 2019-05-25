@@ -1,0 +1,70 @@
+const manureObj = [{
+    category: 'УДОБРЕНИЯ И СТИМУЛЯТОРЫ',
+    name: 'растишка',
+    img: '../src/img/manur/00002045.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 5000,
+},{
+    category: 'УДОБРЕНИЯ И СТИМУЛЯТОРЫ',
+    name: 'подсыпай-ка для рассады',
+    img: '../src/img/manur/plagron-cocos-a-b-1-l_bfaa34cafc04a2f_300x300.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 2000,
+},{
+    category: 'УДОБРЕНИЯ И СТИМУЛЯТОРЫ',
+    name: 'удобрение для всех видов',
+    img: '../src/img/manur/preview.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 5000,
+},
+{
+    category: 'УДОБРЕНИЯ И СТИМУЛЯТОРЫ',
+    name: 'растишка',
+    img: '../src/img/manur/00002045.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 5000,
+},{
+    category: 'УДОБРЕНИЯ И СТИМУЛЯТОРЫ',
+    name: 'подсыпай-ка для рассады',
+    img: '../src/img/manur/plagron-cocos-a-b-1-l_bfaa34cafc04a2f_300x300.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 2000,
+},{
+    category: 'УДОБРЕНИЯ И СТИМУЛЯТОРЫ',
+    name: 'удобрение для всех видов',
+    img: '../src/img/manur/preview.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 5000,
+},
+{
+    category: 'УДОБРЕНИЯ И СТИМУЛЯТОРЫ',
+    name: 'растишка',
+    img: '../src/img/manur/00002045.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 5000,
+},{
+    category: 'УДОБРЕНИЯ И СТИМУЛЯТОРЫ',
+    name: 'подсыпай-ка для рассады',
+    img: '../src/img/manur/plagron-cocos-a-b-1-l_bfaa34cafc04a2f_300x300.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 2000,
+},{
+    category: 'УДОБРЕНИЯ И СТИМУЛЯТОРЫ',
+    name: 'удобрение для всех видов',
+    img: '../src/img/manur/preview.jpg',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 5000,
+},
+
+]
+
+export default manureObj;

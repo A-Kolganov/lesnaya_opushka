@@ -1,0 +1,67 @@
+const seedlingObj = [{
+    category: 'РАССАДА',
+    name: 'ПОМИДОРЫ',
+    img: '../src/img/seedling/Слой 16.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 15000,
+},{
+    category: 'РАССАДА',
+    name: 'БАЗЕЛИК',
+    img: '../src/img/seedling/Слой 17.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 12000,
+},{
+    category: 'РАССАДА',
+    name: 'ПЕРЕЦ',
+    img: '../src/img/seedling/Слой 18.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 14000,
+},{
+    category: 'РАССАДА',
+    name: 'ПОМИДОРЫ',
+    img: '../src/img/seedling/Слой 16.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 15000,
+},{
+    category: 'РАССАДА',
+    name: 'БАЗЕЛИК',
+    img: '../src/img/seedling/Слой 17.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 12000,
+},{
+    category: 'РАССАДА',
+    name: 'ПЕРЕЦ',
+    img: '../src/img/seedling/Слой 18.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 14000,
+},{
+    category: 'РАССАДА',
+    name: 'ПОМИДОРЫ',
+    img: '../src/img/seedling/Слой 16.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 15000,
+},{
+    category: 'РАССАДА',
+    name: 'БАЗЕЛИК',
+    img: '../src/img/seedling/Слой 17.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 12000,
+},{
+    category: 'РАССАДА',
+    name: 'ПЕРЕЦ',
+    img: '../src/img/seedling/Слой 18.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 14000,
+},
+]
+
+export default seedlingObj;

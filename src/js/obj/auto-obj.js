@@ -1,0 +1,68 @@
+const autoObj = [{
+    category: 'АВТОМАТИЗАЦИЯ',
+    name: 'robot rx-75',
+    img: '../src/img/auto/Без названия.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 1000,
+},{
+    category: 'АВТОМАТИЗАЦИЯ',
+    name: 'samsung j7',
+    img: '../src/img/auto/Без названия (1).png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 22000,
+},{
+    category: 'АВТОМАТИЗАЦИЯ',
+    name: 'люда',
+    img: '../src/img/auto/Без названия (2).png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 50000,
+},
+{
+    category: 'АВТОМАТИЗАЦИЯ',
+    name: 'robot rx-75',
+    img: '../src/img/auto/Без названия.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 1000,
+},{
+    category: 'АВТОМАТИЗАЦИЯ',
+    name: 'samsung j7',
+    img: '../src/img/auto/Без названия (1).png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 22000,
+},{
+    category: 'АВТОМАТИЗАЦИЯ',
+    name: 'люда',
+    img: '../src/img/auto/Без названия (2).png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 50000,
+},{
+    category: 'АВТОМАТИЗАЦИЯ',
+    name: 'robot rx-75',
+    img: '../src/img/auto/Без названия.png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 1000,
+},{
+    category: 'АВТОМАТИЗАЦИЯ',
+    name: 'samsung j7',
+    img: '../src/img/auto/Без названия (1).png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 22000,
+},{
+    category: 'АВТОМАТИЗАЦИЯ',
+    name: 'люда',
+    img: '../src/img/auto/Без названия (2).png',
+    textSpan: `Аэропонные модули`,
+    shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 50000,
+},
+]
+
+export default autoObj;

@@ -1,0 +1,47 @@
+@media (min-width: 1024px) {
+    .content__inner__upload  {
+        max-width: 1180px;
+        justify-content: space-between;
+        padding-top: 125px;
+    }
+    .card__heading {
+        top: 0;
+        height: 33px;
+        left: -13px;
+    }
+    .card__heading--css{
+        top: 34px;
+        left:-12px;
+    }
+    .card__heading__text {
+        line-height: 24px;
+        font-size: 17px;
+    }
+    .card {
+        width: 340px;
+        margin: 0 0 60px 0;
+
+    }
+    .card__img-container {
+        padding: 42px 10px 5px;
+    }
+    .card__img-container__img {
+        height: 300px;
+        width: 100%;
+    }
+    .card__info__text{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .card__info__bottom {
+        padding-top: 29px;
+    }
+    .card__info__bottom__price {
+        font-size: 31px;
+        padding-left: 7px;
+    }
+    .card__info__bottom__btn{
+        width: 121px;
+        height: 28px;
+    }
+}

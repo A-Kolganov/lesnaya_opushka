@@ -1,16 +1,46 @@
-.content__inner {
-  display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 10px;
-  margin: 0 auto;
+.content__underline {
+    width: 100%;
+    border-bottom: dotted 2px $secondWebColor;
+}
+.content__underline__ico {
+    margin: 0 auto;
+    width: 35px;
+    height: 25px;
+    background: url('../../src/img/logo_mini.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 11px;
+    background-color: $backgroundColor;
+}
+.content__heading{
+    font-family: $cardFont;
+    font-size: 20px;
+    color: $secondWebColor;
+    display: block;
+    text-align: center;
+    text-transform: lowercase;
+    padding: 20px;
+}
+.content__heading::first-letter{
+  text-transform: uppercase;
+}
+.content__inner__upload {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 470px;
 }
 .card {
   width: 270px;
   height: auto;
   margin: 25px auto;
   position: relative;
+  border-radius: 3px;
 }
 .card__img-container {
   padding: 3px;

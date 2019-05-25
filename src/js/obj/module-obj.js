@@ -4,18 +4,21 @@ const moduleObj = [{
     img: '../src/img/modules/aerocloner_60cm2.jpg',
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 17000,
 },{
     category: 'АЭРОПОННЫЕ МОДУЛИ',
     name: 'модуль 02',
     img: '../src/img/modules/aeroponicsystemmodule-800x800.jpg',
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 17000,
 },{
     category: 'АЭРОПОННЫЕ МОДУЛИ',
     name: 'модуль 03',
     img: '../src/img/modules/f5148e33396ac02fcbdced7cd908b967.jpeg',
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 17000,
 },
 {
     category: 'АЭРОПОННЫЕ МОДУЛИ',
@@ -23,18 +26,21 @@ const moduleObj = [{
     img: '../src/img/modules/aerocloner_60cm2.jpg',
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 17000,
 },{
     category: 'АЭРОПОННЫЕ МОДУЛИ',
     name: 'модуль 05',
     img: '../src/img/modules/aeroponicsystemmodule-800x800.jpg',
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 17000,
 },{
     category: 'АЭРОПОННЫЕ МОДУЛИ',
     name: 'модуль 06',
     img: '../src/img/modules/f5148e33396ac02fcbdced7cd908b967.jpeg',
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 17000,
 },
 {
     category: 'АЭРОПОННЫЕ МОДУЛИ',
@@ -42,18 +48,21 @@ const moduleObj = [{
     img: '../src/img/modules/aerocloner_60cm2.jpg',
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 17000,
 },{
     category: 'АЭРОПОННЫЕ МОДУЛИ',
     name: 'модуль 08',
     img: '../src/img/modules/aeroponicsystemmodule-800x800.jpg',
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 17000,
 },{
     category: 'АЭРОПОННЫЕ МОДУЛИ',
     name: 'модуль 09',
     img: '../src/img/modules/f5148e33396ac02fcbdced7cd908b967.jpeg',
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
+    price: 17000,
 },]
 
 export default moduleObj;

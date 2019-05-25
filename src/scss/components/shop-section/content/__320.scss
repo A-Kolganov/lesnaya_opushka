@@ -1,55 +1,90 @@
-.content__inner{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    padding: 10px;
+.content__inner {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  margin: 0 auto;
 }
-.card{
-    width: 300px;
-    height: auto;
-    margin: 25px 0 0 5px;
-    position: relative;
-    
-    
+.card {
+  width: 270px;
+  height: auto;
+  margin: 25px auto;
+  position: relative;
 }
-.card__img-container{
-    padding: 3px;
-    width: 100%;
-    height: auto;
-    z-index: 10;
-    position: relative;
+.card__img-container {
+  padding: 3px;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  position: relative;
+  background-color: #ffffff;
+}
+.card__img-container__img {
+  width: 100%;
+  padding: 30px 5px 5px 5px;
+  height: 260px;
+}
+.card__heading {
+  display: block;
+  position: absolute;
+  background-color: #62a754;
+  height: auto;
+  z-index: 15;
+  left: -10px;
+  border-radius: 2px;
+  top: -6px;
+  padding: 5px 20px;
+}
+.card__heading--css {
+  width: 27px;
+  background-color: #4b7c41;
+  height: 10px;
+  transform: rotate(45deg);
+  z-index: 5;
+  position: absolute;
+  top: 19px;
+  left: -10px;
+}
+.card__heading__text {
+  font-size: 15px;
+  font-family: $headerFont;
+  color: $mostLightColor;
+  text-transform: uppercase;
+}
+.card__info {
     background-color: #ffffff;
+    padding: 20px;
 }
-.card__img-container__img{
-    width: 100%;
-    padding: 5px;
-}
-.card__heading{
-    display: block;
-                position: absolute;
-                background-color: #62a754;
-                height: 20px;
-                z-index: 15;
-                left: -10px;
-                border-radius: 5px;
-                top: -6px;
-                padding: 3px 20px;
-}
-.card__heading--css{
-    width: 27px;
-                    background-color: #4b7c41;
-                    height: 10px;
-                    transform: rotate(45deg);
-                    z-index: 5;
-                    position: absolute;
-                    top:13px;
-                    left: -10px;
-}
-.card__heading__text{
-    font-size: 15px;
-    font-family: $headerFont;
-    color: $mostLightColor;
-    text-transform: uppercase;
+.card__info__text {
+    font-size: 20px;
+    color: $firtFontColor;
+    font-family: $cardFont;
 
 }
+.card__info__text__span{
+    color: $secondWebColor;
+}
+.card__info__bottom {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.card__info__bottom__price {
+    font-family: $priceFont;
+    font-size: 25px;
+}
+.card__info__bottom__btn {
+    font-family: 'ArialItalic', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: $mostLightColor;
+    background-color: $mainWebColor;
+    padding: 3px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    border: none;
+}
+

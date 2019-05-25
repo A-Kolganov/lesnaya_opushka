@@ -80,6 +80,34 @@ table {
   font-style: normal;
   font-weight: normal; }
 
+@font-face {
+  font-family: "TimesNewRomanRegular";
+  src: url(fonts/TimesNewRomanRegular.eot);
+  src: url(fonts/TimesNewRomanRegular.eot?#iefix) format("embedded-opentype"), url(fonts/TimesNewRomanRegular.woff) format("woff"), url(fonts/TimesNewRomanRegular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "TimesNewRomanBold";
+  src: url(fonts/TimesNewRomanBold.eot);
+  src: url(fonts/TimesNewRomanBold.eot?#iefix) format("embedded-opentype"), url(fonts/TimesNewRomanBold.woff) format("woff"), url(fonts/TimesNewRomanBold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "TimesNewRomanItalic";
+  src: url(fonts/TimesNewRomanItalic.eot);
+  src: url(fonts/TimesNewRomanItalic.eot?#iefix) format("embedded-opentype"), url(fonts/TimesNewRomanItalic.woff) format("woff"), url(fonts/TimesNewRomanItalic.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "TimesNewRomanBoldItalic";
+  src: url(fonts/TimesNewRomanBoldItalic.eot);
+  src: url(fonts/TimesNewRomanBoldItalic.eot?#iefix) format("embedded-opentype"), url(fonts/TimesNewRomanBoldItalic.woff) format("woff"), url(fonts/TimesNewRomanBoldItalic.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
 .header__topborder {
   background-color: #62a754;
   width: 100%;
@@ -431,15 +459,16 @@ table {
 
 .content__inner {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
-  padding: 10px; }
+  flex-direction: row;
+  padding: 10px;
+  margin: 0 auto; }
 
 .card {
-  width: 300px;
+  width: 270px;
   height: auto;
-  margin: 25px 0 0 5px;
+  margin: 25px auto;
   position: relative; }
 
 .card__img-container {
@@ -452,18 +481,19 @@ table {
 
 .card__img-container__img {
   width: 100%;
-  padding: 5px; }
+  padding: 30px 5px 5px 5px;
+  height: 260px; }
 
 .card__heading {
   display: block;
   position: absolute;
   background-color: #62a754;
-  height: 20px;
+  height: auto;
   z-index: 15;
   left: -10px;
-  border-radius: 5px;
+  border-radius: 2px;
   top: -6px;
-  padding: 3px 20px; }
+  padding: 5px 20px; }
 
 .card__heading--css {
   width: 27px;
@@ -473,7 +503,7 @@ table {
           transform: rotate(45deg);
   z-index: 5;
   position: absolute;
-  top: 13px;
+  top: 19px;
   left: -10px; }
 
 .card__heading__text {
@@ -481,4 +511,38 @@ table {
   font-family: "ArialRegular", "Arial", sans-serif;
   color: #ffffff;
   text-transform: uppercase; }
+
+.card__info {
+  background-color: #ffffff;
+  padding: 20px; }
+
+.card__info__text {
+  font-size: 20px;
+  color: #434343;
+  font-family: "TimesNewRomanItalic", Times, serif; }
+
+.card__info__text__span {
+  color: #5d0400; }
+
+.card__info__bottom {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between; }
+
+.card__info__bottom__price {
+  font-family: "ArialBlack", "Arial", sans-serif;
+  font-size: 25px; }
+
+.card__info__bottom__btn {
+  font-family: 'ArialItalic', sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #62a754;
+  padding: 3px;
+  text-transform: capitalize;
+  border-radius: 3px;
+  border: none; }
 

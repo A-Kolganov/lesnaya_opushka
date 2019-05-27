@@ -34,5 +34,8 @@
     font-family: $headerFont;
     font-weight: 700;
     font-size: 10px;
-
+    cursor: pointer;
+}
+.content__nav__btn-link:hover{
+    color: $hoverColor
 }

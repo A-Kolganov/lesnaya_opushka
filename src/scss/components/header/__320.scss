@@ -108,11 +108,14 @@ line-height: 20px;
   color: $mostLightColor;
   text-decoration: none;
   line-height: 35px;
+  padding: 0;
   padding-bottom: 5px;
   font-size: 16px;
+  background: transparent;
+  border: none;
 }
 .header__box__nav__ul__item__link:hover {
-  color: $mainWebColor;
+  color: $hoverColor;
 }
 .header__box__contacts__item:nth-child(1)::before {
   content: " ";

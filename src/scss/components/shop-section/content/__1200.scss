@@ -2,7 +2,7 @@
     .content__inner__upload  {
         max-width: 1180px;
         justify-content: space-between;
-        padding-top: 125px;
+        padding-top: 2px;
     }
     .card__heading {
         top: 0;
@@ -16,6 +16,13 @@
     .card__heading__text {
         line-height: 24px;
         font-size: 17px;
+    }
+    .content__heading{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .content__underline__ico {
+        margin-top: 12px;
     }
     .card {
         width: 340px;

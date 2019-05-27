@@ -5,6 +5,7 @@ import lightObj from '../obj/light-obj';
 import autoObj from '../obj/auto-obj';
 import manureObj from '../obj/manure-obj';
 import controlObj from '../obj/control-obj';
+import {scrollToResolver} from '../../js/components/auto-scroll';
 
 
 function showContentModule(e) {
@@ -38,9 +39,14 @@ function showContentModule(e) {
           case String('КОНТРОЛЬ И ИЗМЕРЕНИЯ').toLowerCase():
                 controlObj.forEach(i=>content.insertAdjacentHTML("beforeend", contentModule(i)));
           break;
+        case String('главная').toLowerCase():
+            
+        break;
         default:
-          alert( 'Я таких значений не знаю' );
+          alert( 'Сервис временно недоступен' );
     }
+    scrollToResolver();
+
 }
 
 export {showContentModule};

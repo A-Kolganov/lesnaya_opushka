@@ -13,6 +13,11 @@ import contentModule from "../templates/module.hbs";
 const burgerBtn = document.querySelector('.js-burger');
 
 const linkMain = document.querySelector('.js-menu-link');
+const linkMainAbout = document.querySelector('.js-menu-link-about');
+const linkMainGuaranty = document.querySelector('.js-menu-link-guaranty');
+const linkMainServices = document.querySelector('.js-menu-link-services');
+const linkMainWinterGarden = document.querySelector('.js-menu-link-about-winterGarden');
+const linkMainContacts = document.querySelector('.js-menu-link-contacts');
 
 const bannerBtnOne = document.querySelector('.js-img-btn-one');
 const bannerBtnTwo = document.querySelector('.js-img-btn-two');
@@ -34,6 +39,11 @@ import {chooseImg} from '../js/view/img-banner';
 import {timer} from '../js/components/img-auto-change';
 import {showContentModule} from '../js/view/content-module';
 import {showNavContent} from '../js/view/nav-links-content';
+import {showNavContentAbout} from '../js/view/nav-links-about';
+import {showNavContentGuaranty} from '../js/view/nav-links-guaranty';
+import {showNavContentServices} from '../js/view/nav-links-services';
+import {showNavContentWinterGarden} from '../js/view/nav-links-winterGarden';
+import {showNavContentContacts} from '../js/view/nav-links-contacts';
 
 import {scrollToResolver} from '../js/components/auto-scroll';
 // EVENT LISTENERS
@@ -41,6 +51,11 @@ import {scrollToResolver} from '../js/components/auto-scroll';
 burgerBtn.addEventListener('click', burgerMenuOpen);
 
 linkMain.addEventListener('click', showNavContent);
+linkMainAbout.addEventListener('click', showNavContentAbout);
+linkMainGuaranty.addEventListener('click', showNavContentGuaranty);
+linkMainServices.addEventListener('click', showNavContentServices);
+linkMainWinterGarden.addEventListener('click', showNavContentWinterGarden);
+linkMainContacts.addEventListener('click', showNavContentContacts);
 
 
 

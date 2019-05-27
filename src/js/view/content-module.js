@@ -8,6 +8,7 @@ import controlObj from '../obj/control-obj';
 import {scrollToResolver} from '../../js/components/auto-scroll';
 
 
+
 function showContentModule(e) {
     e.preventDefault();
     const header = document.querySelector('.content__heading');

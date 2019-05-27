@@ -30,7 +30,7 @@ const btnNavAuto = document.querySelector('.content__nav__btn-link--auto');
 const btnNavManure = document.querySelector('.content__nav__btn-link--manure');
 const btnNavControl = document.querySelector('.content__nav__btn-link--control');
 
-const point = document.querySelector('#uploadContent');
+const point = document.querySelector('.content__inner__upload');
 // JS
 
 import {burgerMenuOpen} from '../js/view/burger-menu';
@@ -46,6 +46,8 @@ import {showNavContentWinterGarden} from '../js/view/nav-links-winterGarden';
 import {showNavContentContacts} from '../js/view/nav-links-contacts';
 
 import {scrollToResolver} from '../js/components/auto-scroll';
+
+import {openModal} from '../js/components/openModal';
 // EVENT LISTENERS
 
 burgerBtn.addEventListener('click', burgerMenuOpen);
@@ -70,7 +72,7 @@ btnNavAuto.addEventListener('click', showContentModule);
 btnNavManure.addEventListener('click', showContentModule); 
 btnNavControl.addEventListener('click', showContentModule); 
 
-
+point.addEventListener('click', openModal);
 // FN
 
 showNavContent();

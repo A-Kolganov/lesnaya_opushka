@@ -6,10 +6,16 @@ import lightObj from '../obj/light-obj';
 import autoObj from '../obj/auto-obj';
 import manureObj from '../obj/manure-obj';
 import controlObj from '../obj/control-obj';
+import {scrollToResolver} from '../../js/components/auto-scroll';
 
+const linkMain = document.querySelector('.js-menu-link');
 
-function showNavContent(e) {
-    e.preventDefault();
+function showNavContent(e=linkMain) {
+    
+    if (e !== linkMain){
+        e.preventDefault();
+    }
+    
     const header = document.querySelector('.content__heading');
     const content = document.querySelector('.content__inner__upload');
    
@@ -19,9 +25,11 @@ function showNavContent(e) {
          }
     }
 
-    if (String(e.target.textContent).toLowerCase().trim() === 'главная'){
-        header.textContent = 'Лучшие продажи';
-    };
+    // if (String(e.target.textContent).toLowerCase().trim() === 'главная'){
+    //     header.textContent = 'Лучшие продажи';
+    // };
+    header.textContent = 'Лучшие продажи';
+
     content.insertAdjacentHTML("beforeend", home());
 
     const topSale = document.querySelector('.topSale');
@@ -29,7 +37,9 @@ function showNavContent(e) {
     topSale.insertAdjacentHTML("afterBegin", contentModule(seedlingObj[0]));
     topSale.insertAdjacentHTML("afterBegin", contentModule(lightObj[0]));
 
-    
+    if (e !== linkMain){
+        scrollToResolver();
+    }
       
 }
 

@@ -19,7 +19,7 @@
     margin: 0 auto;
 }
 .grow-box__img{
-    width: 200px;
+    width: 150px;
     height: 200px;
     background-image: url('../../src/img/grow__box.png');
     background-position: center;
@@ -28,14 +28,14 @@
     margin: 0 auto;
     background-color: $mostLightColor;
 }
-.grow-box__text{
+.grow-box__text, .aeroponika__text{
     font-family: $headerFont;
     font-size: 14px;
     color: $firtFontColor;
     padding: 10px;
     line-height: 18px;
 }
-.grow-box__text__style {
+.grow-box__text__style, .aeroponika__text__style {
     text-indent: 20px;
 }
 .uniq-list {
@@ -43,7 +43,8 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-
+    max-width: 450px;
+    margin: 0 auto;
 }
 .uniq-list__reason {
     width: 140px;
@@ -64,4 +65,13 @@
     &--four {
         background-image: url('../../src/img/qualitty/four.png');
     }
+}
+.aeroponika__img {
+    background-image: url('../../src/img/aeroponika.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+    background-color: $backgroundColor;
 }

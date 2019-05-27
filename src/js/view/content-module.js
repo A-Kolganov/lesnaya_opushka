@@ -39,9 +39,6 @@ function showContentModule(e) {
           case String('КОНТРОЛЬ И ИЗМЕРЕНИЯ').toLowerCase():
                 controlObj.forEach(i=>content.insertAdjacentHTML("beforeend", contentModule(i)));
           break;
-        case String('главная').toLowerCase():
-            
-        break;
         default:
           alert( 'Сервис временно недоступен' );
     }

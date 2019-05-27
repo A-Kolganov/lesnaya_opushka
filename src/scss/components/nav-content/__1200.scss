@@ -1,0 +1,39 @@
+@media (min-width:1024px) {
+    .topSale {
+        max-width: 1200px;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0
+    }
+    .topSale>.card {
+        margin: 0 0 44px 0;
+    }
+    .grow-box{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .grow-box__text {
+        width: 100%;
+    }
+    .grow-box__img{
+        width: 312px;
+        height: 312px;
+        top: -25px;
+        position: relative;
+        background-size: auto;
+    }
+    .uniq-list{
+        width: 100%;
+        justify-content: space-evenly;
+        max-width: 100%;
+        padding-bottom: 44px;
+    }
+    .uniq-list__reason{
+        width: 160px;
+        height: 160px;
+        margin: 0;
+    }
+    .aeroponika__img{
+        height: 250px;
+    }
+}

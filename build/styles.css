@@ -663,7 +663,7 @@ table {
   margin: 0 auto; }
 
 .grow-box__img {
-  width: 200px;
+  width: 150px;
   height: 200px;
   background-image: url(ed00a939fcdb9f136d396f16e7ff6c38.png);
   background-position: center;
@@ -672,21 +672,23 @@ table {
   margin: 0 auto;
   background-color: #ffffff; }
 
-.grow-box__text {
+.grow-box__text, .aeroponika__text {
   font-family: "ArialRegular", "Arial", sans-serif;
   font-size: 14px;
   color: #434343;
   padding: 10px;
   line-height: 18px; }
 
-.grow-box__text__style {
+.grow-box__text__style, .aeroponika__text__style {
   text-indent: 20px; }
 
 .uniq-list {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  max-width: 450px;
+  margin: 0 auto; }
 
 .uniq-list__reason {
   width: 140px;
@@ -703,4 +705,52 @@ table {
     background-image: url(95be08ab8f452cb4bf591ec34617e0f6.png); }
   .uniq-list__reason--four {
     background-image: url(248380544869be0a7dd6062447991356.png); }
+
+.aeroponika__img {
+  background-image: url(193cb5a386f699cb2a36707c6a9c8d1a.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  background-color: #f2f0f0; }
+
+@media (min-width: 768px) {
+  .topSale {
+    min-width: 645px;
+    max-width: 760px; }
+  .aeroponika__img {
+    margin: 20px;
+    height: 200px; } }
+
+@media (min-width: 1024px) {
+  .topSale {
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0; }
+  .topSale > .card {
+    margin: 0 0 44px 0; }
+  .grow-box {
+    flex-direction: row;
+    flex-wrap: nowrap; }
+  .grow-box__text {
+    width: 100%; }
+  .grow-box__img {
+    width: 312px;
+    height: 312px;
+    top: -25px;
+    position: relative;
+    background-size: auto; }
+  .uniq-list {
+    width: 100%;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding-bottom: 44px; }
+  .uniq-list__reason {
+    width: 160px;
+    height: 160px;
+    margin: 0; }
+  .aeroponika__img {
+    height: 250px; } }
 

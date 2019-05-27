@@ -41,7 +41,7 @@ import {scrollToResolver} from '../js/components/auto-scroll';
 burgerBtn.addEventListener('click', burgerMenuOpen);
 
 linkMain.addEventListener('click', showNavContent);
-linkMain.addEventListener('click', scrollToResolver);
+
 
 
 bannerBtnOne.addEventListener('click', chooseImg);
@@ -55,6 +55,10 @@ btnNavAuto.addEventListener('click', showContentModule);
 btnNavManure.addEventListener('click', showContentModule); 
 btnNavControl.addEventListener('click', showContentModule); 
 
+
+// FN
+
+showNavContent();
 
 
     

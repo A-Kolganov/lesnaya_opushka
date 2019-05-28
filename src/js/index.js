@@ -48,6 +48,7 @@ import {showNavContentContacts} from '../js/view/nav-links-contacts';
 import {scrollToResolver} from '../js/components/auto-scroll';
 
 import {openModal} from '../js/components/openModal';
+import {displayItem} from '../js/components/display-item';
 // EVENT LISTENERS
 
 burgerBtn.addEventListener('click', burgerMenuOpen);
@@ -72,7 +73,7 @@ btnNavAuto.addEventListener('click', showContentModule);
 btnNavManure.addEventListener('click', showContentModule); 
 btnNavControl.addEventListener('click', showContentModule); 
 
-point.addEventListener('click', openModal);
+point.addEventListener('click', displayItem);
 // FN
 
 showNavContent();

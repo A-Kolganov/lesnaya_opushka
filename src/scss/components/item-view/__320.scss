@@ -1,0 +1,49 @@
+.item {
+    background-color:  $mostLightColor;
+}
+.item__img{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.item__img__cover__img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.item__img__arr{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.item__img__arr__item {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.item__info{
+    padding: 10px;
+    font-family: $cardFont;
+    color:$firtFontColor;
+    font-size: 15px;
+    width: 100%;
+    line-height: 18px;
+    height: auto;
+}
+.item__info__descr{
+    font-family: $cardFont;
+    color:$firtFontColor;
+    font-size: 20px;
+    width: 100%;
+    line-height: 18px;
+}
+.item__info__price {
+    font-family: $priceFont;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 20px;
+
+}

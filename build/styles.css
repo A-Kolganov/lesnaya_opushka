@@ -792,7 +792,22 @@ body {
   display: block; }
 
 .item {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 3px; }
+
+.item__btn {
+  position: absolute;
+  right: -5px;
+  top: -10px;
+  width: 40px;
+  height: 25px;
+  background-color: #62a754;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px; }
 
 .item__img {
   width: 100%;
@@ -802,7 +817,8 @@ body {
 .item__img__cover__img {
   width: 100%;
   height: auto;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border-radius: 3px; }
 
 .item__img__arr {
   width: 100%;

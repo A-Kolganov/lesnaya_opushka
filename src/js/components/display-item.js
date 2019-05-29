@@ -1,6 +1,7 @@
 import templ from '../../templates/displayItem.hbs';
 import {scrollToResolver} from '../../js/components/auto-scroll';
 import {makeImgArr} from '../view/img-array';
+import {fnReturn} from '../components/returnBtn';
 
 import moduleObj from '../obj/module-obj';
 import seedlingObj from '../obj/seedling-obj';
@@ -13,9 +14,13 @@ function displayItem(e) {
     e.preventDefault();
     const header = document.querySelector('.content__heading');
     const content = document.querySelector('.content__inner__upload');
+    const btn =document.querySelector('.item__btn');
+    console.log(e.target.textContent);
 
 
-    if ( e.target.tagName === 'BUTTON'){
+
+
+    if ( e.target.tagName === 'BUTTON' && e.target.textContent === 'читать далее'){
         if (content.children.length !== 0){
             while (content.hasChildNodes()) {
                 content.removeChild(content.firstChild);
@@ -60,6 +65,8 @@ function displayItem(e) {
             default:
               alert( 'Сервис временно недоступен' );
         }
+        const btnReturn = document.querySelector('.item__btn');
+        btnReturn.addEventListener('click', fnReturn);
         scrollToResolver();
         return
         }

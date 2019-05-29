@@ -9,7 +9,7 @@ import {scrollToResolver} from '../../js/components/auto-scroll';
 
 
 
-function showContentModule(e) {
+function showContentModule(e, category) {
     e.preventDefault();
     const header = document.querySelector('.content__heading');
     const content = document.querySelector('.content__inner__upload');
@@ -21,7 +21,7 @@ function showContentModule(e) {
          }
     }
 
-    switch (String(e.target.value).toLowerCase()) {
+    switch (String(e.target.value).toLowerCase() || category.toLowerCase()) {
         case String('АЭРОПОННЫЕ МОДУЛИ').toLowerCase():
             moduleObj.forEach(i=>content.insertAdjacentHTML("beforeend", contentModule(i)));
           break;

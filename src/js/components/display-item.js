@@ -57,6 +57,7 @@ function displayItem(e) {
                     founder = manureObj.find(i => i.id === id);
                     content.insertAdjacentHTML("beforeend", templ(founder));
                     makeImgArr(founder)
+                    break;
               case String('КОНТРОЛЬ И ИЗМЕРЕНИЯ').toLowerCase():
                     founder = controlObj.find(i => i.id === id);
                     content.insertAdjacentHTML("beforeend", templ(founder));

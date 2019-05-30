@@ -639,7 +639,7 @@ table {
   .content__underline__ico {
     margin-top: 12px; }
   .card {
-    width: 340px;
+    width: 320px;
     margin: 0 0 60px 0; }
   .card__img-container {
     padding: 42px 10px 5px; }
@@ -794,7 +794,8 @@ body {
 .item {
   background-color: #ffffff;
   position: relative;
-  border-radius: 3px; }
+  border-radius: 3px;
+  margin: 0 auto; }
 
 .item__btn {
   position: absolute;
@@ -815,21 +816,24 @@ body {
   padding: 5px; }
 
 .item__img__cover__img {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  border-radius: 3px; }
+  width: 280px;
+  height: 280px;
+  margin: 15px auto;
+  border-radius: 3px;
+  display: block; }
 
 .item__img__arr {
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  cursor: pointer; }
 
 .item__img__arr__item {
   width: 50px;
   height: 50px;
-  margin: 10px; }
+  margin: 10px;
+  border-radius: 3px; }
 
 .item__info {
   padding: 10px;
@@ -853,4 +857,52 @@ body {
   margin: 0 auto;
   text-align: right;
   padding: 20px; }
+
+@media (min-width: 768PX) {
+  .item__btn {
+    width: 50px;
+    height: 30px;
+    font-size: 28PX; }
+  .item__img__cover__img {
+    width: 350px;
+    height: 350px; } }
+
+@media (min-width: 1024PX) {
+  .item__img {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+    flex-wrap: nowrap; }
+  .item__img__arr {
+    display: flex;
+    flex-flow: column; }
+  .item__img__arr {
+    width: 15%; }
+  .item__img__arr__item {
+    border: 1px #434343 solid; }
+  .item__img__cover {
+    width: 100%; }
+  .item__img__cover__img {
+    width: 500px;
+    height: 500px; }
+  .item__btn {
+    right: -20px;
+    top: -15px; } }
+
+.footer {
+  margin-top: 50px;
+  height: 50px;
+  background-color: #62a754; }
+
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 100px;
+    height: 100px;
+    background-color: #62a754; } }
+
+@media (min-width: 1024px) {
+  .footer {
+    margin-top: 200px;
+    height: 200px;
+    background-color: #62a754; } }
 

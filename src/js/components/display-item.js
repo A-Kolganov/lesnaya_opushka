@@ -15,7 +15,6 @@ function displayItem(e) {
     const header = document.querySelector('.content__heading');
     const content = document.querySelector('.content__inner__upload');
     const btn =document.querySelector('.item__btn');
-    console.log(e.target.textContent);
 
 
 

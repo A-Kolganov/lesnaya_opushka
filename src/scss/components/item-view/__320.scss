@@ -2,6 +2,7 @@
     background-color:  $mostLightColor;
     position: relative;
     border-radius: 3px;
+    margin: 0 auto;
 }
 .item__btn{
     position: absolute;
@@ -22,22 +23,24 @@
     padding: 5px;
 }
 .item__img__cover__img{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+    width: 280px;
+    height: 280px;
+    margin: 15px auto;
     border-radius: 3px;
+    display: block;
 }
 .item__img__arr{
     width: 100%;
     height: auto;
     display: flex;
     justify-content: flex-start;
-
+    cursor: pointer;
 }
 .item__img__arr__item {
     width: 50px;
     height: 50px;
     margin: 10px;
+    border-radius: 3px;
 }
 .item__info{
     padding: 10px;

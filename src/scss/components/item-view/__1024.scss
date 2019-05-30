@@ -1,0 +1,31 @@
+@media (min-width:1024PX){
+    .item__img{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row-reverse;
+        flex-wrap: nowrap;
+    }
+    .item__img__arr{
+        display: flex;
+        flex-flow: column;
+    }
+    .item__img__arr{
+        width: 15%;
+    }
+    .item__img__arr__item {
+        border: 1px $firtFontColor solid ;
+    }
+    .item__img__cover{
+        width: 100%;
+    }
+    .item__img__cover__img{
+        width: 500px;
+        height: 500px;
+    }
+    .item__btn{
+
+        right: -20px;
+        top: -15px;
+
+    }
+}

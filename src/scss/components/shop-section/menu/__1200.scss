@@ -1,4 +1,9 @@
 @media (min-width:1024px){
+    .conteiner-nav{
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
     .content__nav {
         display: flex;
         justify-content: space-evenly;
@@ -6,7 +11,8 @@
         max-width: 1200px;
         margin: 0 auto;
         margin-top: 10px;
-        height: 63px
+        height: 63px;
+
     }
     .content__nav__btn-link {
         background-color: transparent;

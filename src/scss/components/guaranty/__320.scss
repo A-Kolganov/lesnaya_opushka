@@ -1,0 +1,20 @@
+.guaranty{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.guaranty__heading{
+    font-family: $headerFont;
+    font-size: 23px;
+    color: $helpGreenColor;
+    border-bottom: 2px solid $mainWebColor;
+    text-align: center;
+}
+.guaranty__text {
+    font-size: 15px;
+    line-height: 18px;
+    text-indent: 20px;
+    font-family: $cardFont;
+    padding: 15px 0 ;
+    color: $firtFontColor;
+}

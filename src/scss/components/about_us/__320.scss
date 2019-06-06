@@ -1,0 +1,26 @@
+.about-cover{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.about-cover__heading{
+    font-family: $headerFont;
+    font-size: 23px;
+    color: $helpGreenColor;
+    border-bottom: 2px solid $mainWebColor;
+    text-align: center;
+}
+.about-cover__text {
+    font-size: 15px;
+    line-height: 18px;
+    text-indent: 20px;
+    font-family: $cardFont;
+    padding: 15px 0 ;
+    color: $firtFontColor;
+}
+.about-cover__underline{
+    font-family: $headerFont;
+    color: $firtFontColor;
+    font-size: 21px;
+    text-align: right;
+}

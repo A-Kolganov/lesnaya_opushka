@@ -1,0 +1,36 @@
+.service{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.service__heading{
+    font-family: $headerFont;
+    font-size: 23px;
+    color: $helpGreenColor;
+    border-bottom: 2px solid $mainWebColor;
+    text-align: center;
+}
+.service__table{
+    width: 100%;
+    height: auto;
+    border: 5px transparent solid;
+}
+.table-th{
+    background-color: $mainWebColor;
+    color: $mostLightColor;
+    font-family: $priceFont;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 5px $backgroundColor solid;
+}
+.table__td{
+    background-color: $backgroundColor;
+    color: $secondWebColor;
+    font-family: $headerFont;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 5px $backgroundColor solid;
+    text-align: center;
+}

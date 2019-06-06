@@ -19,6 +19,13 @@ const linkMainServices = document.querySelector('.js-menu-link-services');
 const linkMainWinterGarden = document.querySelector('.js-menu-link-about-winterGarden');
 const linkMainContacts = document.querySelector('.js-menu-link-contacts');
 
+const linkMainFooter = document.querySelector('.js-footer-btn-menu');
+const linkMainAboutFooter = document.querySelector('.js-footer-btn-about');
+const linkMainGuarantyFooter = document.querySelector('.js-footer-btn-guaranty');
+const linkMainServicesFooter = document.querySelector('.js-footer-btn-services');
+const linkMainWinterGardenFooter = document.querySelector('.js-footer-btn-winterGarden');
+const linkMainContactsFooter = document.querySelector('.js-footer-btn-contacts');
+
 const bannerBtnOne = document.querySelector('.js-img-btn-one');
 const bannerBtnTwo = document.querySelector('.js-img-btn-two');
 const bannerBtnThree = document.querySelector('.js-img-btn-three');
@@ -59,6 +66,13 @@ linkMainGuaranty.addEventListener('click', showNavContentGuaranty);
 linkMainServices.addEventListener('click', showNavContentServices);
 linkMainWinterGarden.addEventListener('click', showNavContentWinterGarden);
 linkMainContacts.addEventListener('click', showNavContentContacts);
+
+linkMainFooter.addEventListener('click', showNavContent);
+linkMainAboutFooter.addEventListener('click', showNavContentAbout);
+linkMainGuarantyFooter.addEventListener('click', showNavContentGuaranty);
+linkMainServicesFooter.addEventListener('click', showNavContentServices);
+linkMainWinterGardenFooter.addEventListener('click', showNavContentWinterGarden);
+linkMainContactsFooter.addEventListener('click', showNavContentContacts);
 
 
 

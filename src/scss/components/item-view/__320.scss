@@ -51,18 +51,43 @@
     line-height: 18px;
     height: auto;
 }
+.item__info__name,.item__info__price{
+    font-family: $priceFont;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: $secondWebColor;
+}
+.item__info__idNum,.item__info__production,.item__info__model{
+    font-family: $headerFont;
+    text-align: left;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: $firtFontColor;
+    padding: 10px;
+}
+.item__info__isEnable{
+    font-family: $priceFont;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    margin: 15px;
+    text-transform: uppercase;
+    color: $mainWebColor;
+    border: #62a754 1px solid;
+    border-radius: 3px;
+}
 .item__info__descr{
     font-family: $cardFont;
     color:$firtFontColor;
     font-size: 20px;
     width: 100%;
     line-height: 18px;
-}
-.item__info__price {
-    font-family: $priceFont;
-    font-size: 25px;
-    margin: 0 auto;
-    text-align: right;
     padding: 20px;
-
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+.item__info >p> SPAN{
+    font-weight: bolder;
 }

@@ -1,21 +1,3 @@
-.footer {
-  margin-top: 50px;
-  height: 50px;
-  background-color: $mainWebColor;
-}
-
-@media (min-width: 768px) {
-  .footer {
-    margin-top: 100px;
-    height: 100px;
-    background-color: $mainWebColor;
-  }
-}
-
-@media (min-width: 1024px) {
-  .footer {
-    margin-top: 200px;
-    height: 200px;
-    background-color:$mainWebColor;
-  }
-}
+@import '../footer/_320';
+@import '../footer/_768';
+@import '../footer/_1200';

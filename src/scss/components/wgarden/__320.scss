@@ -1,0 +1,40 @@
+.wgarden{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.wgarden__heading{
+    font-family: $headerFont;
+    font-size: 23px;
+    color: $helpGreenColor;
+    border-bottom: 2px solid $mainWebColor;
+    text-align: center;
+}
+.wgarden__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+.wgarden__wrapper__img{
+    width: 200px;
+    height: 200px;
+}
+.wgarden__wrapper__img>img{
+    width: 100%;
+    height: auto;
+}
+.wgarden__wrapper__text{
+    font-size: 15px;
+    line-height: 18px;
+    text-indent: 20px;
+    font-family: $cardFont;
+    padding: 15px 20px ;
+    color: $headerFont;
+    height: auto;
+    display: block;
+    word-wrap: normal;
+    max-width: 700px;
+}

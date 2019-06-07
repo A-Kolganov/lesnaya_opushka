@@ -1,0 +1,29 @@
+.contacts{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.contacts__heading{
+    font-family: $headerFont;
+    font-size: 23px;
+    color: $helpGreenColor;
+    border-bottom: 2px solid $mainWebColor;
+    text-align: center;
+}
+.contacts__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+.contacts__item{
+    font-size: 20px;
+    line-height: 18px;
+    text-indent: 20px;
+    font-family: $cardFont;
+    padding: 15px 0 ;
+    color: $firtFontColor;
+}

@@ -10,7 +10,12 @@
         <p class="item__info__production"><span>Производитель: </span>{{production}}</p>
         <p class="item__info__model"><span>Модель: </span>{{model}}</p>
         <p class="item__info__price"><span>Цена: </span>&#x20b4 {{price}}</p>
-        <p class="item__info__isEnable">{{isEnable}}</p>
+        {{#if isEnable}}
+        <p class="item__info__isEnable">есть в наличии</p>
+        {{else}}
+        <p class="item__info__unEnable">нет на складе</p>
+        {{/if}}
+        
         <p class="item__info__descr">{{fullDescr}}</p>
     </div>
 </div>

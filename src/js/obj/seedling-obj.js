@@ -11,7 +11,7 @@ const seedlingObj = [{
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
     fullDescr: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat velit ut in, similique quia eaque aspernatur veritatis dolor officia porro hic consequatur facilis ab accusamus vero quae rerum exercitationem sint possimus ducimus. Laboriosam nisi quisquam saepe, a, quasi suscipit eius similique ea repellendus tenetur voluptatem porro dolore ex non?`,
-    isEnable: true? `есть в наличии`: `нет на складе`, 
+    isEnable: true, 
     price: 15000,
 },{
     id: 102,
@@ -26,7 +26,7 @@ const seedlingObj = [{
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
     fullDescr: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat velit ut in, similique quia eaque aspernatur veritatis dolor officia porro hic consequatur facilis ab accusamus vero quae rerum exercitationem sint possimus ducimus. Laboriosam nisi quisquam saepe, a, quasi suscipit eius similique ea repellendus tenetur voluptatem porro dolore ex non?`,
-    isEnable: true? `есть в наличии`: `нет на складе`, 
+    isEnable: true, 
     price: 12000,
 },{
     id: 103,
@@ -41,7 +41,7 @@ const seedlingObj = [{
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
     fullDescr: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat velit ut in, similique quia eaque aspernatur veritatis dolor officia porro hic consequatur facilis ab accusamus vero quae rerum exercitationem sint possimus ducimus. Laboriosam nisi quisquam saepe, a, quasi suscipit eius similique ea repellendus tenetur voluptatem porro dolore ex non?`,
-    isEnable: true? `есть в наличии`: `нет на складе`, 
+    isEnable: true, 
     price: 14000,
 },{
     id: 104,
@@ -56,7 +56,7 @@ const seedlingObj = [{
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
     fullDescr: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat velit ut in, similique quia eaque aspernatur veritatis dolor officia porro hic consequatur facilis ab accusamus vero quae rerum exercitationem sint possimus ducimus. Laboriosam nisi quisquam saepe, a, quasi suscipit eius similique ea repellendus tenetur voluptatem porro dolore ex non?`,
-    isEnable: true? `есть в наличии`: `нет на складе`, 
+    isEnable: true, 
     price: 15000,
 },{
     id: 105,
@@ -71,7 +71,7 @@ const seedlingObj = [{
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
     fullDescr: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat velit ut in, similique quia eaque aspernatur veritatis dolor officia porro hic consequatur facilis ab accusamus vero quae rerum exercitationem sint possimus ducimus. Laboriosam nisi quisquam saepe, a, quasi suscipit eius similique ea repellendus tenetur voluptatem porro dolore ex non?`,
-    isEnable: true? `есть в наличии`: `нет на складе`, 
+    isEnable: true, 
     price: 12000,
 },{
     id: 106,
@@ -86,7 +86,7 @@ const seedlingObj = [{
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
     fullDescr: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat velit ut in, similique quia eaque aspernatur veritatis dolor officia porro hic consequatur facilis ab accusamus vero quae rerum exercitationem sint possimus ducimus. Laboriosam nisi quisquam saepe, a, quasi suscipit eius similique ea repellendus tenetur voluptatem porro dolore ex non?`,
-    isEnable: true? `есть в наличии`: `нет на складе`, 
+    isEnable: true, 
     price: 14000,
 },{
     id: 107,
@@ -101,7 +101,7 @@ const seedlingObj = [{
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
     fullDescr: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat velit ut in, similique quia eaque aspernatur veritatis dolor officia porro hic consequatur facilis ab accusamus vero quae rerum exercitationem sint possimus ducimus. Laboriosam nisi quisquam saepe, a, quasi suscipit eius similique ea repellendus tenetur voluptatem porro dolore ex non?`,
-    isEnable: true? `есть в наличии`: `нет на складе`, 
+    isEnable: true, 
     price: 15000,
 },{
     id: 108,
@@ -116,7 +116,7 @@ const seedlingObj = [{
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
     fullDescr: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat velit ut in, similique quia eaque aspernatur veritatis dolor officia porro hic consequatur facilis ab accusamus vero quae rerum exercitationem sint possimus ducimus. Laboriosam nisi quisquam saepe, a, quasi suscipit eius similique ea repellendus tenetur voluptatem porro dolore ex non?`,
-    isEnable: true? `есть в наличии`: `нет на складе`, 
+    isEnable: true, 
     price: 12000,
 },{
     id: 109,
@@ -131,7 +131,7 @@ const seedlingObj = [{
     textSpan: `Аэропонные модули`,
     shortDescr: ` - это пластиковый контейнер с форсунками и мозгами`,
     fullDescr: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat velit ut in, similique quia eaque aspernatur veritatis dolor officia porro hic consequatur facilis ab accusamus vero quae rerum exercitationem sint possimus ducimus. Laboriosam nisi quisquam saepe, a, quasi suscipit eius similique ea repellendus tenetur voluptatem porro dolore ex non?`,
-    isEnable: true? `есть в наличии`: `нет на складе`, 
+    isEnable: true, 
     price: 14000,
 },
 ]

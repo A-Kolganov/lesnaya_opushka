@@ -91,3 +91,14 @@
 .item__info >p> SPAN{
     font-weight: bolder;
 }
+.item__info__unEnable{
+    font-family: $priceFont;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    margin: 15px;
+    text-transform: uppercase;
+    color: #ff7777;
+    border: #ff7777 1px solid;
+    border-radius: 3px;
+}
